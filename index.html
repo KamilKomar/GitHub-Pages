@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3f3ca5611b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <h1 class="title">Search a GitHub Profile</h1>
+    <form>
+        <input type="text" id="name" class="search">
+        <button class="search"><i class="fas fa-search"></i></button>
+        <!-- <button class="profile__history-btn"><i class="fas fa-history"></i></button> -->
+    </form>
+    <div class="profile wrapper">
+        <div class="profile__top">
+            <img class='profile__img' alt="Profile image" src="https://avatars.githubusercontent.com/u/176013?v=4">
+            <a href="" class='profile__account' target="_blank">view profile</a>
+            <!-- <div class="profile__history"> -->
+            <button class="profile__history-btn"><i class="fas fa-history"></i></button>
+            <ul class="profile__history-ul ">
+
+            </ul>
+            <!-- </div> -->
+        </div>
+        <div class="profile__bottom">
+            <div class="profile__stats">
+                <p class="profile__name"></p>
+
+                <div class="profile__info">
+                    <div class="profile__info-box">
+                        <p class="profile__following"></p>
+                        <p>Following</p>
+                    </div>
+                    <div class="profile__info-box">
+                        <p class="profile__followers"></p>
+                        <p>Followers</p>
+                    </div>
+                    <div class="profile__info-box">
+                        <p class="profile__repos"></p>
+                        <p>Repositories</p>
+                    </div>
+
+                </div>
+                <p class="profile__bio"></p>
+            </div>
+        </div>
+        <!-- <div class="profile__history"> -->
+
+    </div>
+    </div>
+    <div class="error"></div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

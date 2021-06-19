@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    .profile {
+        &__name {
+            font-size: 25px;
+        }
+
+        &__info-box {
+            :first-child {
+                font-size: 22px;
+            }
+
+            :last-child {
+                font-size: 16px;
+            }
+        }
+
+        &__bio {
+            font-size: 18px;
+
+        }
+        &__account {
+            font-size: 18px;
+        }
+        &__history-btn {
+            font-size: 20px;
+        }
+    }
+}
