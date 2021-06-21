@@ -44,7 +44,7 @@ function displayProfile() {
 
 function createHistory() {
     const listItem = document.createElement("li");
-    listItem.style.cursor = 'pointer'
+    listItem.style.cursor = "pointer";
     listItem.textContent = inputName.value;
     historyUl.appendChild(listItem);
 
